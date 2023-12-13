@@ -4,6 +4,7 @@
       "category": "Grind",
       "image": "https://raw.githubusercontent.com/MaxOzarko/lr6/main/img/MJOLNIR.jpeg",
       "price": 0,
+      "discountprice": false,
       "available": false,
       "new": true,
       "bestseller": false
@@ -13,6 +14,7 @@
       "category": "Sniper rifles",
       "image": "https://raw.githubusercontent.com/MaxOzarko/lr6/main/img/AWP.png",
       "price": 9999,
+      "discountprice": 20000,
       "discount": true,
       "available": true,
       "new": false,
@@ -23,6 +25,7 @@
       "category": "swords",
       "image": "https://raw.githubusercontent.com/MaxOzarko/lr6/main/img/DIAMOND_SWORD.jpg",
       "price": 30000,
+      "discountprice": false,
       "available": true,
       "new": false,
       "bestseller": true
@@ -32,6 +35,7 @@
       "category": "Weapon",
       "image": "https://raw.githubusercontent.com/MaxOzarko/lr6/main/img/PORTAL_GUN.jpeg",
       "price": 55000,
+      "discountprice": false,
       "available": true,
       "new": false,
       "bestseller": false
