@@ -1,7 +1,7 @@
 [
     {
       "name": "mjolnir",
-      "category": "Молоти",
+      "category": "Grind",
       "image": "https://raw.githubusercontent.com/MaxOzarko/lr6/main/img/MJOLNIR.jpeg",
       "price": 0,
       "available": false,
@@ -10,7 +10,7 @@
     },
     {
       "name": "awp",
-      "category": "Снайперські гвинтівки",
+      "category": "Sniper rifles",
       "image": "https://raw.githubusercontent.com/MaxOzarko/lr6/main/img/AWP.png",
       "price": 9999,
       "discount": true,
@@ -20,7 +20,7 @@
     },
     {
       "name": "diamond sword",
-      "category": "Мечі",
+      "category": "swords",
       "image": "https://raw.githubusercontent.com/MaxOzarko/lr6/main/img/DIAMOND_SWORD.jpg",
       "price": 30000,
       "available": true,
@@ -29,7 +29,7 @@
     },
     {
       "name": "portal gun",
-      "category": "Зброя",
+      "category": "Weapon",
       "image": "https://raw.githubusercontent.com/MaxOzarko/lr6/main/img/PORTAL_GUN.jpeg",
       "price": 55000,
       "available": true,
