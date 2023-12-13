@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Weapons</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    <div id="shoppingCart" class="cart-icon">
+        <i class="fi fi-rr-shopping-cart shopping-cart-img"></i>
+        <span id="cartItemCount" class="cart-item-count">0</span>
+    </div>
+    <div id="cartModal" class="modal">
+        <div>
+            Корзина пуста
+            <span class="close" onclick="closeCartModal()">&times;</span>
+        </div>
+    </div>
+    <div class="quantity-modal modal" id="quantityModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeQuantityModal()">&times;</span>
+            <h2>Введіть кількість</h2>
+            <input type="number" id="quantityInput" min="1" value="1">
+            <button onclick="addToCartModal()">Додати</button>
+        </div>
+    </div>
+    <h1 class="title">Обов'язково додайте замовлення </h1>
+    <div class="container" id="productContainer">
+        
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>

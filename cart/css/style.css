@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+td, a{
+    text-decoration: none;
+    color: black;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.payment-btn {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(242, 255, 56);
+    text-decoration: none;
+    margin-top: 5px;
+}
